@@ -4,7 +4,6 @@ on boot
     chmod 660 /sys/class/leds/lcd-backlight/brightness
 
     # PM8941 flash
-    chown system camera /sys/class/misc/pm8941-flash/device/current1
     chown media system /sys/class/misc/pm8941-flash/device/current1
     chown media system /sys/class/misc/pm8941-flash/device/current2
     chown media system /sys/class/misc/pm8941-flash/device/fault_status
